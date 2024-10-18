@@ -1,0 +1,17 @@
+{
+  "title": "Stop looking for an item — find it.",
+  "headerSearchPlaceholder": "Product, brand, color, ...",
+  "filter": "Filter",
+  "clearFilter": "Clear filters",
+  "sortFeature": "Sort by featured",
+  "priceUp": "Price ascending",
+  "priceDown": "Price descending",
+  "category": "Category",
+  "brand": "Brands",
+  "brandSearchPlaceholder": "Search brands",
+  "price": "Prices",
+  "freeShip": "Free Ship",
+  "shipNote": "Display on items with free shipping",
+  "rate": "Rating",
+  "show": " hits per page"
+}

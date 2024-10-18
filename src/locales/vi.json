@@ -1,0 +1,17 @@
+{
+  "title": "Ngừng tìm kiếm sản phẩm — hãy tìm thấy nó.",
+  "headerSearchPlaceholder": "Sản phẩm, thương hiệu, màu sắc, ...",
+  "filter": "Lọc",
+  "clearFilter": "Xóa bộ lọc",
+  "sortFeature": "Sắp xếp theo tính năng",
+  "priceUp": "Giá tăng dần",
+  "priceDown": "Giá giảm dần",
+  "category": "Danh mục",
+  "brand": "Thương hiệu",
+  "brandSearchPlaceholder": "Tìm kiếm thương hiệu",
+  "price": "Giá",
+  "freeShip": "Miễn phí vận chuyển",
+  "shipNote": "Hiển thị trên các mặt hàng được miễn phí vận chuyển",
+  "rate": "Đánh giá",
+  "show": " sản phẩm mỗi trang"
+}
