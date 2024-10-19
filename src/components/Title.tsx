@@ -1,14 +1,10 @@
-import vi from '../locales/vi.json';
-import en from '../locales/en.json';
+import { useTranslation } from 'react-i18next';
 
-interface Props {
-  isEnglish: boolean;
-}
-
-export default function HeaderTitle({ isEnglish }: Props): JSX.Element {
+export default function HeaderTitle(): JSX.Element {
+  const { t } = useTranslation();
   return (
     <p className="header-title text-[38px] font-light my-[38px]">
-      {isEnglish ? en.title : vi.title}
+      {t('title')}
     </p>
   );
 }

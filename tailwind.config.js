@@ -6,6 +6,9 @@ module.exports = {
       screens: {
         lgc: '900px',
       },
+      fontFamily: {
+        hind: ['Hind', 'sans-serif'],
+      },
     },
   },
   plugins: [],

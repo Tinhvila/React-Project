@@ -1,5 +1,6 @@
+import { useTranslation } from 'react-i18next';
+
 interface Props {
-  placeholder: string;
   searchContent: string | undefined;
   onSetSearchContent: (value: string) => void;
   onClearSearchContent: () => void;
@@ -10,11 +11,11 @@ function handleSubmitForm(e: React.FormEvent<HTMLFormElement>) {
 }
 
 export default function SearchBox({
-  placeholder,
   searchContent,
   onSetSearchContent,
   onClearSearchContent,
 }: Props): JSX.Element {
+  const { t } = useTranslation();
   return (
     <div className="ais-SearchBox w-[100vw] absolute bottom-0 left-0 transform translate-y-1/2 h-[64px] lgc:relative lgc:w-[740px]">
       <form
@@ -27,7 +28,7 @@ export default function SearchBox({
           maxLength={512}
           value={searchContent}
           onChange={(e) => onSetSearchContent(e.target.value)}
-          placeholder={placeholder}
+          placeholder={t('headerSearchPlaceholder')}
         />
 
         <button
@@ -47,7 +48,6 @@ export default function SearchBox({
             searchContent === '' ? 'hidden' : ''
           }`}
         >
-          
           <img
             src={`${process.env.PUBLIC_URL}/image/reset.svg`}
             alt="reset-button"
