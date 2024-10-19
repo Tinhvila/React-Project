@@ -1,0 +1,9 @@
+.background-img {
+  background-image: url('../../public/image/banner.png'),
+    linear-gradient(#fbc300, #c98a00);
+}
+
+.background-img-mobile {
+  background-image: url('../../public/image/banner-mobile.png'),
+    linear-gradient(#ae8600, #885b01);
+}
